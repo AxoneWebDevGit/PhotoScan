@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "1dc0346c-bc2b-4a7d-bddb-139cba2cdb3d",
+		"name": "Orc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19735145"
+	},
+	"item": [
+		{
+			"name": "ScanImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "postman-cloud:///1efc412d-7412-4180-a4d7-1140c58c0c00"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5297/api/ocr/extract-text",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5297",
+					"path": [
+						"api",
+						"ocr",
+						"extract-text"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

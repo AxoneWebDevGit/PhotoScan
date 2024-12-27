@@ -1,0 +1,3 @@
+https://sourceforge.net/projects/tesseract-ocr.mirror/
+
+https://tesseract-ocr.github.io/
